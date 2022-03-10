@@ -1,0 +1,33 @@
+{
+    "name": "defender-game",
+    "version": "1.0.0",
+    "description": "\"Browser based game\"",
+    "main": "index.js",
+    "scripts": {
+        "start": "live-server src",
+        "build": "babel src -d dist",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/NSobol/work2.git"
+    },
+    "keywords": [
+        "game"
+    ],
+    "author": "Varna",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NSobol/work2/issues"
+    },
+    "homepage": "https://github.com/NSobol/work2#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.17.6",
+        "@babel/core": "^7.17.5",
+        "@babel/preset-env": "^7.16.11",
+        "live-server": "^1.2.1"
+    },
+    "dependencies": {
+        "core-js": "^3.21.1"
+    }
+}
